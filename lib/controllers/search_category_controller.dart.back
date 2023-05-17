@@ -1,0 +1,43 @@
+import 'dart:convert';
+import 'package:b2s/models/category_model.dart';
+import 'package:b2s/utils/api_services/api_service.dart';
+import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:http/http.dart' as http;
+import 'package:shared_preferences/shared_preferences.dart';
+
+class SearchCategoryController extends GetxController {
+  final txtEditingCtrl = TextEditingController().obs;
+  int catid = 1;
+  String name = '';
+  Future<CategoryModel>? _futureCategories;
+
+  Future<CategoryModel> getCategories() async {
+    // SharedPreferences localStorage = await SharedPreferences.getInstance();
+    // int term = int.parse(localStorage.getString('term').toString());
+    ApiService apiService = ApiService();
+    http.Response response = await apiService.getData('/typeHint/categories',
+        {
+          'term': 'food'
+        },
+    );
+    // print(response.body.toString());
+    final data =  jsonDecode(response.body.toString());
+    print("-------- getCategories --------");
+    print(data);
+    print("-------- getCategories --------");
+
+    if(response.statusCode == 200){
+      // var categories = data['categories'];
+      // var catNam = [];
+      // for (var category in categories) {
+      //   catNam.add(category['name']);
+      // }
+      // return catNam;
+
+      return CategoryModel.fromJson(data);
+    } else {
+      throw Exception('Failed to fetch categories');
+    }
+  }
+}

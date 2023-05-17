@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="127.368" height="121" viewBox="0 0 127.368 121">
+  <g id="bx-message-square-dots" transform="translate(-4 -4)">
+    <path id="Path_172" data-name="Path 172" d="M93.158,4H42.211A38.249,38.249,0,0,0,4,42.211v76.421A6.368,6.368,0,0,0,10.368,125H93.158a38.249,38.249,0,0,0,38.211-38.211V42.211A38.249,38.249,0,0,0,93.158,4Zm25.474,82.789a25.5,25.5,0,0,1-25.474,25.474H16.737V42.211A25.5,25.5,0,0,1,42.211,16.737H93.158a25.5,25.5,0,0,1,25.474,25.474Z" fill="#081750"/>
+    <g id="Group_49" data-name="Group 49" transform="translate(42.211 54.947)">
+      <circle id="Ellipse_9" data-name="Ellipse 9" cx="9.5" cy="9.5" r="9.5" transform="translate(0.474 0.053)" fill="#081750"/>
+      <circle id="Ellipse_10" data-name="Ellipse 10" cx="9.553" cy="9.553" r="9.553" transform="translate(26.223)" fill="#081750"/>
+    </g>
+  </g>
+</svg>

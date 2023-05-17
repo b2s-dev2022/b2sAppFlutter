@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="Group_191" data-name="Group 191" transform="translate(-51 -474)">
+    <circle id="Ellipse_25" data-name="Ellipse 25" cx="30" cy="30" r="30" transform="translate(51 474)" fill="#0076ff"/>
+    <g id="__TEMP__SVG__" transform="translate(68 491)">
+      <path id="Path_563" data-name="Path 563" d="M27.4,4H6.6A2.618,2.618,0,0,0,4,6.631V22.414a2.618,2.618,0,0,0,2.6,2.631h3.9V30l8.16-4.955H27.4A2.618,2.618,0,0,0,30,22.414V6.631A2.618,2.618,0,0,0,27.4,4Zm0,18.414H17.94L13.1,25.351V22.414H6.6V6.631H27.4Z" transform="translate(-4 -4)" fill="#fff"/>
+      <path id="Path_564" data-name="Path 564" d="M14,14H26.454v2.491H14Zm0,4.982h8.718v2.491H14Z" transform="translate(-7.227 -7.271)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
